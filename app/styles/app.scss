@@ -1,0 +1,22 @@
+@import "bourbon";
+@import "neat";
+
+form {
+    width: 50%;
+    margin-left: 25%;
+}
+
+input {
+    width: 100%;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+textarea {
+    width: 100%;
+    display: block;
+    margin-bottom: 1rem;
+}
+#description {
+    height: 10rem;
+}

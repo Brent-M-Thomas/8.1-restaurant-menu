@@ -1,0 +1,16 @@
+<form {{action 'submit' on='submit'}}>
+    <label for="name">Name</label>
+    {{input  id="name"type="text" value=name}}
+
+    <label for="description">Description</label>
+    {{textarea id="description" type="text" value=description}}
+
+    <label for="price">Price</label>
+    {{input  id="price"type="number" value=price}}
+
+    <label for="category">Category</label>
+    {{input  id="category"type="text" value=category}}
+
+
+    <button>Save</button>
+</form>
