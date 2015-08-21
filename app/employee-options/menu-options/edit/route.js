@@ -11,6 +11,7 @@ export default Ember.Route.extend({
       item.save().then(() => {
         this.transitionTo('employee-options.menu-options.show', item);
       });
-    }
+    },
+
   }
 });

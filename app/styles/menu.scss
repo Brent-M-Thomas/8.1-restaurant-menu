@@ -1,0 +1,14 @@
+li {
+    list-style-type: none;
+    margin: .5rem 0;
+    >h3 {
+        background: #658C95;
+        margin: 0;
+        padding: .5rem;
+    }
+    >p {
+        background: #80B2BE;
+        margin: 0;
+        padding: .5rem;
+    }
+}
