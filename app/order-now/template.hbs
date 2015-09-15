@@ -1,0 +1,12 @@
+<ul>
+    {{#each model as |item|}}
+        <li {{action 'addToOrder' item}}>
+            <h3>{{item.name}}</h3>
+            <p>{{item.description}}</p>
+            <p>${{item.price}}</p>
+        </li>
+
+    {{/each}}
+</ul>
+
+{{outlet}}

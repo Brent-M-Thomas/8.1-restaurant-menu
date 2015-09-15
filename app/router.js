@@ -15,6 +15,10 @@ Router.map(function() {
       this.route('edit', {path: '/:menu_item_id'});
     });
   });
+  this.route('order-now', function() {
+    this.route('status');
+  });
+  this.route('test');
 });
 
 export default Router;

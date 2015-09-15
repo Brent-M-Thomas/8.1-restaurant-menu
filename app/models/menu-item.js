@@ -5,6 +5,6 @@ export default DS.Model.extend({
   description: DS.attr('string'),
   price: DS.attr('number'),
   category: DS.attr('string'),
-  owner: DS.belongsTo('order-model', {async: true}),
+  orderState: DS.belongsTo('order-model', {async: true}),
 
 });

@@ -9,7 +9,7 @@ export default Ember.Route.extend({
     save: function(item, data) {
       item.setProperties(data);
       item.save().then(() => {
-        this.transitionTo('employee-options.menu-options.show', item);
+        this.transitionTo('employee-options.index');
       });
     },
 
