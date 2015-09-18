@@ -419,6 +419,38 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "app/router.js",
+			"settings":
+			{
+				"buffer_size": 322,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/employee-options/route.js",
+			"settings":
+			{
+				"buffer_size": 68,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/employee-options/menu-options/route.js",
+			"settings":
+			{
+				"buffer_size": 140,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/employee-options/template.hbs",
+			"settings":
+			{
+				"buffer_size": 50,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -427,10 +459,26 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 400.0,
-		"last_filter": "ins",
+		"height": 219.0,
+		"last_filter": "remove",
 		"selected_items":
 		[
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remopa",
+				"Package Control: Remove Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
 			[
 				"ins",
 				"Package Control: Install Package"
@@ -472,10 +520,6 @@
 				"Set Syntax: Shell Script (Bash)"
 			],
 			[
-				"install",
-				"Package Control: Install Package"
-			],
-			[
 				"",
 				"Package Control: Install Package"
 			]
@@ -501,10 +545,26 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/Brent/IronYard/week-8/8.1-restaurant-menu"
+		"/Users/Brent/IronYard/week-8/8-1-restaurant-menu",
+		"/Users/Brent/IronYard/week-8/8-1-restaurant-menu/app",
+		"/Users/Brent/IronYard/week-8/8-1-restaurant-menu/app/adapters",
+		"/Users/Brent/IronYard/week-8/8-1-restaurant-menu/app/components",
+		"/Users/Brent/IronYard/week-8/8-1-restaurant-menu/app/controllers",
+		"/Users/Brent/IronYard/week-8/8-1-restaurant-menu/app/employee-options",
+		"/Users/Brent/IronYard/week-8/8-1-restaurant-menu/app/employee-options/menu-options",
+		"/Users/Brent/IronYard/week-8/8-1-restaurant-menu/app/employee-options/order-view",
+		"/Users/Brent/IronYard/week-8/8-1-restaurant-menu/app/models",
+		"/Users/Brent/IronYard/week-8/8-1-restaurant-menu/app/templates",
+		"/Users/Brent/IronYard/week-8/8-1-restaurant-menu/config"
 	],
 	"file_history":
 	[
+		"/Users/Brent/IronYard/week-8/8-1-restaurant-menu/app/templates/application.hbs",
+		"/Users/Brent/IronYard/week-8/8-1-restaurant-menu/app/employee-options/menu-options/template.hbs",
+		"/Users/Brent/IronYard/week-8/8-1-restaurant-menu/app/models/menu-item.js",
+		"/Users/Brent/IronYard/week-8/8-1-restaurant-menu/config/environment.js",
+		"/Users/Brent/IronYard/week-8/8-1-restaurant-menu/app/index.html",
+		"/Users/Brent/IronYard/week-8/8-1-restaurant-menu/.ember-cli",
 		"/Users/Brent/IronYard/week-8/8.1-restaurant-menu/.ember-cli",
 		"/Users/Brent/IronYard/week-8/lesson-2/app/models/contact.js",
 		"/Users/Brent/IronYard/week-8/lesson-2/lesosn-2.sublime-project",
@@ -750,8 +810,121 @@
 	"groups":
 	[
 		{
+			"selected": 3,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "app/router.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 322,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								141,
+								141
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/employee-options/route.js",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 68,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/employee-options/menu-options/route.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 140,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								129,
+								129
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/employee-options/template.hbs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 50,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								49,
+								49
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Handlebars/grammars/Handlebars.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],

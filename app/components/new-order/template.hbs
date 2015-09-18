@@ -1,0 +1,12 @@
+<div class="order-data">
+    <h2>Your Order</h2>
+    {{#each cart.orderItems as |item|}}
+    <p class="order-item">{{item.name}} {{item.price}}</p>
+    {{/each}}
+
+    <p>SubTotal = ${{cart.subTotal}}</p>
+    <button {{action 'save'}}>Submit Order</button>
+
+
+</div>
+{{yield}}

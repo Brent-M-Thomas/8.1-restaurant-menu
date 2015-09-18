@@ -1,0 +1,14 @@
+<ul>
+    {{#each model as |item|}}
+        <li>
+            <p>
+                {{#link-to 'employee-options.menu-options.edit' item}}Edit{{/link-to}}
+                <a href="#" {{action 'delete' item}}>Delete</a>
+            </p>
+            <h3>{{item.name}}</h3>
+            <p>{{item.description}}</p>
+            <p>${{item.price}}</p>
+        </li>
+
+    {{/each}}
+</ul>

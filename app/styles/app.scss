@@ -1,0 +1,31 @@
+@import "bourbon";
+@import "neat";
+
+$theme-color-1: #658C95;
+$theme-color-2: #80B2BE;
+
+@import "menu";
+@import "order-front";
+
+
+
+
+form {
+    width: 50%;
+    margin-left: 25%;
+}
+
+input {
+    width: 100%;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+textarea {
+    width: 100%;
+    display: block;
+    margin-bottom: 1rem;
+}
+#description {
+    height: 10rem;
+}

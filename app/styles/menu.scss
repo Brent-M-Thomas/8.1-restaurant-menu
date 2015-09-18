@@ -1,0 +1,23 @@
+.menu-front {
+    float: left;
+    width: 50%;
+    margin: 1rem;
+}
+li {
+    width: 100%;
+    list-style-type: none;
+    margin: .5rem 0;
+    text-align: center;
+    >h3 {
+        text-align: center;
+        background: $theme-color-1;
+        margin: 0;
+        padding: .5rem;
+    }
+    >p {
+        text-align: center;
+        background: $theme-color-2;
+        margin: 0;
+        padding: .5rem;
+    }
+}
