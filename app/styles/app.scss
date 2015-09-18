@@ -1,6 +1,13 @@
 @import "bourbon";
 @import "neat";
+
+$theme-color-1: #658C95;
+$theme-color-2: #80B2BE;
+
 @import "menu";
+@import "order-front";
+
+
 
 
 form {

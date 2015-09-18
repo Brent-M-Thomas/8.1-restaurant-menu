@@ -1,13 +1,22 @@
+.menu-front {
+    float: left;
+    width: 50%;
+    margin: 1rem;
+}
 li {
+    width: 100%;
     list-style-type: none;
     margin: .5rem 0;
+    text-align: center;
     >h3 {
-        background: #658C95;
+        text-align: center;
+        background: $theme-color-1;
         margin: 0;
         padding: .5rem;
     }
     >p {
-        background: #80B2BE;
+        text-align: center;
+        background: $theme-color-2;
         margin: 0;
         padding: .5rem;
     }

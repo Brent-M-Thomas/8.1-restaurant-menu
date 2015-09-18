@@ -1,6 +1,6 @@
-<ul>
+<ul class="menu-front">
     {{#each model as |item|}}
-        <li {{action 'addToOrder' item}}>
+        <li class="menu-item" {{action 'addToOrder' item}}>
             <h3>{{item.name}}</h3>
             <p>{{item.description}}</p>
             <p>${{item.price}}</p>
@@ -8,5 +8,6 @@
 
     {{/each}}
 </ul>
+{{new-order}}
 
 {{outlet}}
